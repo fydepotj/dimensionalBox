@@ -1,25 +1,26 @@
-html {  
-    background: #000;
-  height: 100%;
+html{
+	background:pink;
+    height: 100%;	
 }
 /*最外层容器样式*/
-.wrap {
-  width: 10px;
-  height: 10px;
-  /*改变左右上下,图片方块移动*/
-  margin: 200px 400px;
-  position: relative;
+.wrap{
+	width: 10px;
+	height: 10px;
+	/*改变左右上下,图片方块移动*/
+	margin: 200px 400px;
+	position: relative;
+	
 }
 /*包裹所有容器样式*/
-.cube {
-  width: 600px;
-  height: 400px;
-  margin: 0 auto;
-  transform-style: preserve-3d;
-  transform: rotateX(-30deg) rotateY(-80deg);
-  -webkit-animation: rotate 20s infinite;
-  /*匀速*/
-  animation-timing-function: linear;
+.cube{
+	width:600px;
+	height:400px;
+	margin: 0 auto;
+	transform-style: preserve-3d;
+	transform: rotateX(-30deg) rotateY(-80deg);
+	-webkit-animation: rotate 20s infinite;
+	/*匀速*/
+	animation-timing-function: linear;
 }
 @-webkit-keyframes rotate {
   from {
